@@ -11,7 +11,7 @@
   <meta property="og:url" content="https://flarrel.github.io/">
   <title>Farrell Gideon Hutasoit | Applied AI Portfolio</title>
   <link rel="canonical" href="https://flarrel.github.io/">
-  <link rel="stylesheet" href="styles.css?v=gallery">
+  <link rel="stylesheet" href="styles.css?v=project-screenshots">
 </head>
 <body id="top">
   <a class="skip" href="#work">Skip to projects</a>
@@ -40,14 +40,7 @@
       <ul class="gallery" role="list">
         <li>
           <a class="card" href="#packaging">
-            <div class="cover cover-packaging" aria-hidden="true">
-              <div class="retrieval">
-                <div><span>Text only</span><strong>14 / 42</strong></div>
-                <span class="track"><span></span></span>
-                <div><span>With image</span><strong>42 / 42</strong></div>
-                <span class="track"><span></span></span>
-              </div>
-            </div>
+            <div class="cover cover-packaging"><img src="assets/packaging-api-cover.webp" width="872" height="535" alt=""></div>
             <div class="card-copy"><h3>Packaging Evidence Lookup</h3><p>Multimodal RAG</p></div>
           </a>
         </li>
@@ -76,12 +69,7 @@
         </li>
         <li>
           <a class="card" href="#support">
-            <div class="cover cover-support" aria-hidden="true">
-              <div class="ocr-card">
-                <img src="assets/ocr-fixture.webp" width="800" height="140" alt="">
-                <div><span>Character error</span><strong>2.55% → 0.76%</strong></div>
-              </div>
-            </div>
+            <div class="cover cover-support"><img src="assets/support-intake-cover.webp" width="592" height="363" alt=""></div>
             <div class="card-copy"><h3>Support Intake</h3><p>OCR &amp; software testing</p></div>
           </a>
         </li>
@@ -103,6 +91,13 @@
             <strong>14/42 to 42/42</strong>
             <p>Top-1 retrieval improved when the reranker used reference label images on held-out queries.</p>
           </div>
+          <details class="demo">
+            <summary>View API screenshot</summary>
+            <figure>
+              <a href="assets/packaging-api.webp"><img src="assets/packaging-api.webp" width="1440" height="1450" alt="Swagger UI shows a package-code query and an HTTP 200 response that cites DailyMed." loading="lazy"></a>
+              <figcaption>Swagger UI running a package-code query and returning its source.</figcaption>
+            </figure>
+          </details>
         </article>
 
         <article class="story" id="heating" aria-labelledby="heating-title">
@@ -172,6 +167,13 @@
             <p>OCR character error fell after OpenCV preprocessing across 77 rendered screenshots.</p>
             <p class="credit">Screenshot text from <a href="https://github.com/PolyAI-LDN/task-specific-datasets/tree/master/banking_data">Banking77</a> by PolyAI, licensed <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
           </div>
+          <details class="demo">
+            <summary>View app screenshot</summary>
+            <figure>
+              <a href="assets/support-intake-app.webp"><img src="assets/support-intake-app.webp" width="1440" height="1100" alt="Support Intake dashboard with a screenshot ticket in the review queue, extracted text, and a suggested routing category." loading="lazy"></a>
+              <figcaption>Support Intake extracted a request from a rendered screenshot and sent it to the review queue.</figcaption>
+            </figure>
+          </details>
         </article>
       </div>
     </section>
