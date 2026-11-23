@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Five applied AI and machine learning projects by Farrell Gideon Hutasoit, a computer science undergraduate at BINUS University.">
+  <meta name="color-scheme" content="dark">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Farrell Gideon Hutasoit | Applied AI & Machine Learning">
+  <meta property="og:description" content="Five applied AI projects with benchmarks, results, and source code.">
+  <meta property="og:url" content="https://flarrel.github.io/">
+  <title>Farrell Gideon Hutasoit | Applied AI & Machine Learning</title>
+  <link rel="canonical" href="https://flarrel.github.io/">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="shell">
+    <header class="intro">
+      <div>
+        <h1>Farrell Gideon Hutasoit</h1>
+        <p>Applied AI &amp; Machine Learning · BINUS Computer Science</p>
+      </div>
+      <nav aria-label="Profile links">
+        <a href="https://github.com/flarrel">GitHub</a>
+        <a href="https://www.linkedin.com/in/farrell-gideon-1051bb326/">LinkedIn</a>
+        <a class="cv-link" href="assets/Farrell-Gideon-Hutasoit-CV.pdf">View CV <span>PDF</span></a>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="projects">
+        <h2 class="section-heading" id="projects">Selected projects</h2>
+        <ul class="projects">
+          <li class="project">
+            <div class="summary">
+              <h3>Packaging Evidence Lookup</h3>
+              <p>Built a FastAPI multimodal RAG service with a PyTorch reranker and DailyMed citations.</p>
+            </div>
+            <div class="outcome">
+              <p class="metric">14/42 → 42/42</p>
+              <p>Top-1 retrieval with reference label images on held-out queries.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/flarrel/packaging-evidence-lookup" aria-label="Packaging Evidence Lookup code">Code</a>
+              <a href="https://github.com/flarrel/packaging-evidence-lookup/blob/main/RESULTS.md" aria-label="Packaging Evidence Lookup results">Results</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="summary">
+              <h3>Batch Heating Surrogate</h3>
+              <p>Built a heat-balance simulator, trained temperature models, and optimized heater settings.</p>
+            </div>
+            <div class="outcome">
+              <p class="metric">0.392 vs 1.903 °C MAE</p>
+              <p>Ridge regression vs. persistence on nominal simulated test data.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/flarrel/batch-heating-surrogate" aria-label="Batch Heating Surrogate code">Code</a>
+              <a href="https://github.com/flarrel/batch-heating-surrogate#reference-results" aria-label="Batch Heating Surrogate results">Results</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="summary">
+              <h3>Equipment Manual QA</h3>
+              <p>Built a SmolVLM agent that opens manual images when needed and cites the source page.</p>
+            </div>
+            <div class="outcome">
+              <p class="metric">22/24 vs 16/24 grounded</p>
+              <p>Selective vs. always-image reading, with 12 vs. 24 image calls on synthetic manuals.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/flarrel/equipment-manual-qa" aria-label="Equipment Manual QA code">Code</a>
+              <a href="https://github.com/flarrel/equipment-manual-qa/blob/main/docs/results.md" aria-label="Equipment Manual QA results">Results</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="summary">
+              <h3>CCLE Lactate Workflow</h3>
+              <p>Built a Nextflow workflow for expression and metabolomics data with lineage-held-out validation.</p>
+            </div>
+            <div class="outcome">
+              <p class="metric">898 cell lines · 24 lineages</p>
+              <p>A clean rerun reproduced all eight analysis outputs byte for byte.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/flarrel/ccle-lactate-workflow" aria-label="CCLE Lactate Workflow code">Code</a>
+              <a href="https://github.com/flarrel/ccle-lactate-workflow/blob/main/RESULTS.md" aria-label="CCLE Lactate Workflow results">Results</a>
+            </div>
+          </li>
+          <li class="project">
+            <div class="summary">
+              <h3>Support Intake</h3>
+              <p>Built a Node.js support API with screenshot OCR, intent classification, and release tests.</p>
+            </div>
+            <div class="outcome">
+              <p class="metric">2.55% → 0.76% OCR error</p>
+              <p>Character error before and after preprocessing on 77 rendered screenshots.</p>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/flarrel/support-intake" aria-label="Support Intake code">Code</a>
+              <a href="https://github.com/flarrel/support-intake#routing-model-and-benchmarks" aria-label="Support Intake OCR results">Results</a>
+            </div>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <p class="footer-title">BINUS University · Computer Science</p>
+        <p>Intelligent Systems · Expected 2028 · Tangerang, Indonesia</p>
+      </div>
+      <a href="mailto:farrellhutasoit@gmail.com">farrellhutasoit@gmail.com</a>
+    </footer>
+  </div>
+</body>
+</html>
